@@ -8,7 +8,7 @@ from vector2d import Vector2D
 from vector2d import Point2D
 from graphics import egi, KEY
 from math import sin, cos, radians
-from random import random, randrange, uniform
+from random import random, randrange, uniform, randint
 from path import Path
 
 AGENT_MODES = {
@@ -68,6 +68,7 @@ class Agent(object):
         self.wander_jitter = 10.0 * scale
         self.bRadius = scale
         self.neighbourR = 50;
+        self.enviroObjs = []
        
         self.neighbours = []
 
@@ -78,9 +79,17 @@ class Agent(object):
         # limits?
         self.max_speed = 20.0 * scale
         self.max_force = 500.0
-
+        
         # debug draw info?
         self.show_info = False
+
+        class circle:
+            radius = randint(30,50)
+            pos = Vector2D(randrange(world.cx), randrange(world.cy))
+
+
+
+
 
     def randomise_path(self):
         cx = self.world.cx
@@ -97,8 +106,14 @@ class Agent(object):
         
         return self.seek(self.path.current_pt())
 
+    def fillEnvirObjects(self):
+
+        for x in range (0,5):
+            self.enviroObjs[x] = egi.circle(circle.pos,circle.radius)
+
 
     def calculate(self,delta):
+
         # calculate the current steering force
         mode = self.mode
         if mode == 'seek':
@@ -123,7 +138,7 @@ class Agent(object):
             force = Vector2D()
         self.force = force
         return force
-
+    
     def update(self, delta):
        
         force = self.calculate(delta)  # <-- delta needed for wander
@@ -163,12 +178,15 @@ class Agent(object):
             wnd_pos = (self.wander_target + Vector2D(self.wander_dist,0))
             wld_pos = self.world.transform_point(wnd_pos,self.pos,self.heading,self.side)
           
-          
+        if self.mode == "hide":
+            self.fillEnvirObjects()
+                
 
         # draw the ship
         egi.set_pen_color(name=self.color)
         pts = self.world.transform_points(self.vehicle_shape, self.pos,
                                           self.heading, self.side, self.scale)
+        
         # draw it!
         egi.closed_shape(pts)
 
