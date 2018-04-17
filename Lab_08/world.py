@@ -19,6 +19,11 @@ class World(object):
         self.agents = []
         self.paused = True
         self.show_info = True
+        self.platform = window.get_platform()
+        self.display = self.platform.get_default_display()      
+        self.screen = self.display.get_default_screen()
+        self.screen_width = self.screen.width
+        self.screen_height = self.screen.height
 
     def update(self, delta):
         if not self.paused:
@@ -29,11 +34,6 @@ class World(object):
         for agent in self.agents:
             agent.render()
 
-        platform = window.get_platform()
-        display = platform.get_default_display()      
-        screen = display.get_default_screen()
-        screen_width = screen.width
-        screen_height = screen.height
       
         
 
@@ -50,10 +50,10 @@ class World(object):
             egi.white_pen()
 
             egi.text_at_pos(0, 0, infotext)
-            egi.text_at_pos(10,screen_height-100, "Max Force Value (Truncated): "+str(forcetext) +" ( Q : + , W : - )")
-            egi.text_at_pos(10,screen_height-125, "Seperation Weight : "+str(septext) +" ( A : + , S : - )")
-            egi.text_at_pos(10,screen_height-150, "Cohesion Weight : "+str(cohetext) +" ( T : + , Y : - )")
-            egi.text_at_pos(10,screen_height-175, "Alignment Weight: "+str(aligntext) +" ( D : + , F : - )")
+            egi.text_at_pos(10,self.screen_height-100, "Max Force Value (Truncated): "+str(forcetext) +" ( Q : + , W : - )")
+            egi.text_at_pos(10,self.screen_height-125, "Seperation Weight : "+str(septext) +" ( A : + , S : - )")
+            egi.text_at_pos(10,self.screen_height-150, "Cohesion Weight : "+str(cohetext) +" ( T : + , Y : - )")
+            egi.text_at_pos(10,self.screen_height-175, "Alignment Weight: "+str(aligntext) +" ( D : + , F : - )")
 
     def wrap_around(self, pos):
         ''' Treat world as a toroidal space. Updates parameter object pos '''

@@ -23,6 +23,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="agent.py" />
+    <Compile Include="enviroObject.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="graphics.py" />
     <Compile Include="main.py" />
     <Compile Include="matrix33.py" />

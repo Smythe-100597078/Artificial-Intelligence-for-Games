@@ -5,6 +5,7 @@ Created for COS30002 AI for Games by Clinton Woodward cwoodward@swin.edu.au
 '''
 
 from vector2d import Vector2D
+from enviroObject import enviroObject
 from vector2d import Point2D
 from graphics import egi, KEY
 from math import sin, cos, radians
@@ -69,7 +70,7 @@ class Agent(object):
         self.bRadius = scale
         self.neighbourR = 50;
         self.enviroObjs = []
-       
+        self.fillEnvirObjects()
         self.neighbours = []
 
         self.CohesionWeight = 0
@@ -83,9 +84,6 @@ class Agent(object):
         # debug draw info?
         self.show_info = False
 
-        class circle:
-            radius = randint(30,50)
-            pos = Vector2D(randrange(world.cx), randrange(world.cy))
 
 
 
@@ -107,10 +105,10 @@ class Agent(object):
         return self.seek(self.path.current_pt())
 
     def fillEnvirObjects(self):
-
         for x in range (0,5):
-            self.enviroObjs[x] = egi.circle(circle.pos,circle.radius)
+            self.enviroObjs.append(enviroObject("circle",self.world))
 
+       
 
     def calculate(self,delta):
 
@@ -179,7 +177,9 @@ class Agent(object):
             wld_pos = self.world.transform_point(wnd_pos,self.pos,self.heading,self.side)
           
         if self.mode == "hide":
-            self.fillEnvirObjects()
+            for x in self.enviroObjs:
+                x.render()
+            
                 
 
         # draw the ship
