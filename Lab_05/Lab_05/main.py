@@ -54,6 +54,7 @@ if __name__ == '__main__':
     # add one agent
     world.agents.append(Agent(world))
     world.hunter = world.agents[0]
+    world.fillEnviroObjects()
    
     # unpause the world ready for movement
     world.paused = False

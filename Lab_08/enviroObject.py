@@ -11,7 +11,7 @@ class enviroObject(object):
      def __init__(self,name="",world=None):
          self.name = name
          self.world = world
-         self.radius = 60
+         self.radius = 40
          self.color = 'BLUE'
          self.pos = Vector2D(randint(100,self.world.screen_width-100), randint(100,self.world.screen_height-100))
 

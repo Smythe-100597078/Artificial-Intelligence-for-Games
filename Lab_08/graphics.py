@@ -172,6 +172,7 @@ class EasyGraphics(object):
     def grey_pen(self):   self.set_pen_color(name='GREY')
     def aqua_pen(self):   self.set_pen_color(name='AQUA')
     def orange_pen(self): self.set_pen_color(name='ORANGE')
+    def yellow_pen(self): self.set_pen_color(name='YELLOW')
 
     def set_stroke(self, stroke):
         self.stroke = stroke
