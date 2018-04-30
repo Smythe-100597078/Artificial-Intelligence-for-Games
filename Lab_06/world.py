@@ -24,7 +24,7 @@ class World(object):
         if not self.paused:
             for agent in self.agents:
                 agent.update(delta)
-                agent.fillEnviro
+               
 
     def render(self):
         for agent in self.agents:
