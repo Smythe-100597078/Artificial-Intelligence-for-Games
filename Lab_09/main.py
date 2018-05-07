@@ -48,12 +48,12 @@ def on_key_press(symbol, modifiers):
            world.agents[0].projects.append(bullet)
     elif symbol == KEY.V:
        if world.agents[0].mode == "shooting":
-           bullet = projectile(world,'Hand Gun','700.0','50.0')
+           bullet = projectile(world,'Hand Gun','700.0','20.0')
            bullet.shot()
            world.agents[0].projects.append(bullet)
     elif symbol == KEY.C:
        if world.agents[0].mode == "shooting":
-           bullet = projectile(world,'Hand Grenade','200.0','50.0')
+           bullet = projectile(world,'Hand Grenade','200.0','20.0')
            bullet.shot()
            world.agents[0].projects.append(bullet)
    
