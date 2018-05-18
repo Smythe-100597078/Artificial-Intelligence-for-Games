@@ -233,6 +233,7 @@ class PlanetWars(object):
         status = [p for p in self.players.values() if p.is_alive()]
         if len(status) == 1:
             self.winner = status[0]
+            print(self.winner)
             return False
         else:
             return True

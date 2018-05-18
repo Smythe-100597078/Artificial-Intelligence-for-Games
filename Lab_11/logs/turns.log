@@ -1,826 +1,100 @@
-   1: Player 1 launched 105 (left 0) ships from planet 2 to planet 1
-   1: Player 2 launched 78 (left 27) ships from planet 3 to planet 16
-   2: Player 1 launched 5 (left 0) ships from planet 2 to planet 1
-   3: Player 1 launched 5 (left 0) ships from planet 2 to planet 1
-   4: Player 1 launched 5 (left 0) ships from planet 2 to planet 1
-   5: Player 1 launched 5 (left 0) ships from planet 2 to planet 1
-   6: Player 1 launched 5 (left 0) ships from planet 2 to planet 1
-   7: Player 1 launched 5 (left 0) ships from planet 2 to planet 1
-   8: Player 1 launched 5 (left 0) ships from planet 2 to planet 1
-   9: Player 1 launched 5 (left 0) ships from planet 2 to planet 1
-   9: Player 1 now owns planet 1
-  10: Player 1 launched 14 (left 0) ships from planet 1 to planet 3
-  11: Player 1 launched 10 (left 0) ships from planet 1 to planet 3
-  12: Player 1 launched 10 (left 0) ships from planet 1 to planet 3
-  13: Player 1 launched 10 (left 0) ships from planet 1 to planet 3
-  14: Player 1 launched 10 (left 0) ships from planet 1 to planet 3
-  15: Player 1 launched 10 (left 0) ships from planet 1 to planet 3
-  15: Player 2 now owns planet 16
-  16: Player 1 launched 10 (left 0) ships from planet 1 to planet 3
-  16: Player 2 launched 76 (left 26) ships from planet 3 to planet 17
-  17: Player 1 launched 10 (left 0) ships from planet 1 to planet 3
-  18: Player 1 launched 10 (left 0) ships from planet 1 to planet 3
-  18: Player 2 defended planet 3
-  19: Player 1 launched 5 (left 0) ships from planet 1 to planet 3
-  19: Player 2 defended planet 3
-  20: Player 1 launched 5 (left 0) ships from planet 1 to planet 3
-  20: Player 2 defended planet 3
-  21: Player 1 launched 5 (left 0) ships from planet 1 to planet 3
-  21: Player 2 defended planet 3
-  22: Player 1 launched 5 (left 0) ships from planet 1 to planet 3
-  22: Player 2 defended planet 3
-  23: Player 1 launched 5 (left 0) ships from planet 1 to planet 3
-  23: Player 2 defended planet 3
-  24: Player 1 launched 5 (left 0) ships from planet 1 to planet 3
-  24: Player 1 now owns planet 3
-  25: Player 1 launched 5 (left 0) ships from planet 1 to planet 4
-  26: Player 1 launched 5 (left 0) ships from planet 1 to planet 4
-  27: Player 1 launched 5 (left 0) ships from planet 1 to planet 4
-  28: Player 1 launched 5 (left 0) ships from planet 1 to planet 4
-  29: Player 1 launched 5 (left 0) ships from planet 1 to planet 4
-  30: Player 1 launched 5 (left 0) ships from planet 1 to planet 4
-  31: Player 1 launched 5 (left 0) ships from planet 1 to planet 4
-  32: Player 1 launched 5 (left 0) ships from planet 1 to planet 4
-  33: Player 1 launched 5 (left 0) ships from planet 1 to planet 4
-  34: Player 1 launched 5 (left 0) ships from planet 1 to planet 4
-  35: Player 1 launched 5 (left 0) ships from planet 1 to planet 4
-  36: Player 1 launched 5 (left 0) ships from planet 1 to planet 4
-  36: Player 2 now owns planet 17
-  37: Player 1 launched 5 (left 0) ships from planet 1 to planet 4
-  37: Player 2 launched 66 (left 23) ships from planet 16 to planet 3
-  38: Player 1 launched 5 (left 0) ships from planet 1 to planet 4
-  39: Player 1 launched 5 (left 0) ships from planet 1 to planet 4
-  40: Player 1 launched 5 (left 0) ships from planet 1 to planet 4
-  41: Player 1 launched 5 (left 0) ships from planet 1 to planet 4
-  42: Player 1 launched 5 (left 0) ships from planet 1 to planet 4
-  43: Player 1 launched 5 (left 0) ships from planet 1 to planet 4
-  44: Player 1 launched 5 (left 0) ships from planet 1 to planet 4
-  45: Player 1 launched 5 (left 0) ships from planet 1 to planet 4
-  45: Player 1 now owns planet 4
-  46: Player 1 launched 5 (left 0) ships from planet 1 to planet 5
-  47: Player 1 launched 5 (left 0) ships from planet 1 to planet 5
-  48: Player 1 launched 5 (left 0) ships from planet 1 to planet 5
-  49: Player 1 launched 5 (left 0) ships from planet 1 to planet 5
-  50: Player 1 launched 5 (left 0) ships from planet 1 to planet 5
-  51: Player 1 launched 5 (left 0) ships from planet 1 to planet 5
-  51: Player 1 defended planet 3
-  52: Player 1 launched 5 (left 0) ships from planet 1 to planet 5
-  52: Player 2 launched 60 (left 21) ships from planet 17 to planet 22
-  53: Player 1 launched 5 (left 0) ships from planet 1 to planet 5
-  54: Player 1 launched 5 (left 0) ships from planet 1 to planet 5
-  55: Player 1 launched 5 (left 0) ships from planet 1 to planet 5
-  56: Player 1 launched 5 (left 0) ships from planet 1 to planet 5
-  57: Player 1 launched 5 (left 0) ships from planet 1 to planet 5
-  58: Player 1 launched 5 (left 0) ships from planet 1 to planet 5
-  59: Player 1 launched 5 (left 0) ships from planet 1 to planet 5
-  60: Player 1 launched 5 (left 0) ships from planet 1 to planet 5
-  61: Player 1 launched 5 (left 0) ships from planet 1 to planet 5
-  62: Player 1 launched 5 (left 0) ships from planet 1 to planet 5
-  62: Player 2 now owns planet 22
-  63: Player 1 launched 5 (left 0) ships from planet 1 to planet 5
-  63: Player 2 launched 36 (left 13) ships from planet 16 to planet 23
-  64: Player 1 launched 5 (left 0) ships from planet 1 to planet 5
-  65: Player 1 launched 5 (left 0) ships from planet 1 to planet 5
-  66: Player 1 launched 5 (left 0) ships from planet 1 to planet 5
-  66: Player 1 now owns planet 5
-  67: Player 1 launched 5 (left 0) ships from planet 1 to planet 6
-  68: Player 1 launched 5 (left 0) ships from planet 1 to planet 6
-  69: Player 1 launched 5 (left 0) ships from planet 1 to planet 6
-  70: Player 1 launched 5 (left 0) ships from planet 1 to planet 6
-  71: Player 1 launched 5 (left 0) ships from planet 1 to planet 6
-  72: Player 1 launched 5 (left 0) ships from planet 1 to planet 6
-  73: Player 1 launched 5 (left 0) ships from planet 1 to planet 6
-  73: Player 2 now owns planet 23
-  74: Player 1 launched 5 (left 0) ships from planet 1 to planet 6
-  74: Player 2 launched 48 (left 16) ships from planet 22 to planet 12
-  75: Player 1 launched 5 (left 0) ships from planet 1 to planet 6
-  76: Player 1 launched 5 (left 0) ships from planet 1 to planet 6
-  77: Player 1 launched 5 (left 0) ships from planet 1 to planet 6
-  78: Player 1 launched 5 (left 0) ships from planet 1 to planet 6
-  79: Player 1 launched 5 (left 0) ships from planet 1 to planet 6
-  80: Player 1 launched 5 (left 0) ships from planet 1 to planet 6
-  81: Player 1 launched 5 (left 0) ships from planet 1 to planet 6
-  82: Player 1 launched 5 (left 0) ships from planet 1 to planet 6
-  83: Player 1 launched 5 (left 0) ships from planet 1 to planet 6
-  84: Player 1 launched 5 (left 0) ships from planet 1 to planet 6
-  85: Player 1 launched 5 (left 0) ships from planet 1 to planet 6
-  86: Player 1 launched 5 (left 0) ships from planet 1 to planet 6
-  87: Player 1 launched 5 (left 0) ships from planet 1 to planet 6
-  88: Player 1 launched 5 (left 0) ships from planet 1 to planet 6
-  88: Player 1 now owns planet 6
-  89: Player 1 launched 5 (left 0) ships from planet 1 to planet 7
-  90: Player 1 launched 5 (left 0) ships from planet 1 to planet 7
-  90: Player 2 now owns planet 12
-  91: Player 1 launched 5 (left 0) ships from planet 1 to planet 7
-  91: Player 2 launched 45 (left 15) ships from planet 17 to planet 13
-  92: Player 1 launched 5 (left 0) ships from planet 1 to planet 7
-  93: Player 1 launched 5 (left 0) ships from planet 1 to planet 7
-  94: Player 1 launched 5 (left 0) ships from planet 1 to planet 7
-  95: Player 1 launched 5 (left 0) ships from planet 1 to planet 7
-  96: Player 1 launched 5 (left 0) ships from planet 1 to planet 7
-  97: Player 1 launched 5 (left 0) ships from planet 1 to planet 7
-  98: Player 1 launched 5 (left 0) ships from planet 1 to planet 7
-  98: Player 2 now owns planet 13
-  99: Player 1 launched 5 (left 0) ships from planet 1 to planet 7
-  99: Player 2 launched 51 (left 17) ships from planet 23 to planet 10
- 100: Player 1 launched 5 (left 0) ships from planet 1 to planet 7
- 101: Player 1 launched 5 (left 0) ships from planet 1 to planet 7
- 102: Player 1 launched 5 (left 0) ships from planet 1 to planet 7
- 103: Player 1 launched 5 (left 0) ships from planet 1 to planet 7
- 104: Player 1 launched 5 (left 0) ships from planet 1 to planet 7
- 105: Player 1 launched 5 (left 0) ships from planet 1 to planet 7
- 106: Player 1 launched 5 (left 0) ships from planet 1 to planet 7
- 107: Player 1 launched 5 (left 0) ships from planet 1 to planet 7
- 108: Player 1 launched 5 (left 0) ships from planet 1 to planet 7
- 109: Player 1 launched 5 (left 0) ships from planet 1 to planet 7
- 110: Player 1 launched 5 (left 0) ships from planet 1 to planet 7
- 110: Player 1 now owns planet 7
- 111: Player 1 launched 5 (left 0) ships from planet 1 to planet 8
- 112: Player 1 launched 5 (left 0) ships from planet 1 to planet 8
- 113: Player 1 launched 5 (left 0) ships from planet 1 to planet 8
- 114: Player 1 launched 5 (left 0) ships from planet 1 to planet 8
- 115: Player 1 launched 5 (left 0) ships from planet 1 to planet 8
- 115: Player 2 now owns planet 10
- 116: Player 1 launched 5 (left 0) ships from planet 1 to planet 8
- 116: Player 2 launched 75 (left 25) ships from planet 22 to planet 1
- 117: Player 1 launched 5 (left 0) ships from planet 1 to planet 8
- 118: Player 1 launched 5 (left 0) ships from planet 1 to planet 8
- 119: Player 1 launched 5 (left 0) ships from planet 1 to planet 8
- 120: Player 1 launched 5 (left 0) ships from planet 1 to planet 8
- 121: Player 1 launched 5 (left 0) ships from planet 1 to planet 8
- 122: Player 1 launched 5 (left 0) ships from planet 1 to planet 8
- 123: Player 1 launched 5 (left 0) ships from planet 1 to planet 8
- 124: Player 1 launched 5 (left 0) ships from planet 1 to planet 8
- 124: Player 2 now owns planet 1
- 125: Player 1 launched 580 (left 0) ships from planet 2 to planet 1
- 125: Player 2 launched 72 (left 25) ships from planet 12 to planet 11
- 126: Player 1 launched 5 (left 0) ships from planet 2 to planet 1
- 127: Player 1 launched 5 (left 0) ships from planet 2 to planet 1
- 128: Player 1 launched 5 (left 0) ships from planet 2 to planet 1
- 129: Player 1 launched 5 (left 0) ships from planet 2 to planet 1
- 130: Player 1 launched 5 (left 0) ships from planet 2 to planet 1
- 131: Player 1 launched 5 (left 0) ships from planet 2 to planet 1
- 131: Player 2 now owns planet 11
- 132: Player 1 launched 5 (left 0) ships from planet 2 to planet 1
- 132: Player 2 launched 78 (left 27) ships from planet 1 to planet 20
- 133: Player 1 launched 5 (left 0) ships from planet 2 to planet 1
- 133: Player 1 now owns planet 1
- 134: Player 1 launched 543 (left 0) ships from planet 1 to planet 8
- 135: Player 1 launched 10 (left 0) ships from planet 1 to planet 8
- 136: Player 1 launched 10 (left 0) ships from planet 1 to planet 8
- 137: Player 1 launched 10 (left 0) ships from planet 1 to planet 8
- 138: Player 1 launched 10 (left 0) ships from planet 1 to planet 8
- 139: Player 1 launched 10 (left 0) ships from planet 1 to planet 8
- 140: Player 1 launched 10 (left 0) ships from planet 1 to planet 8
- 141: Player 1 launched 10 (left 0) ships from planet 1 to planet 8
- 142: Player 1 launched 10 (left 0) ships from planet 1 to planet 8
- 142: Player 2 now owns planet 20
- 143: Player 1 launched 5 (left 0) ships from planet 1 to planet 8
- 143: Player 2 launched 99 (left 33) ships from planet 10 to planet 8
- 144: Player 1 launched 5 (left 0) ships from planet 1 to planet 8
- 145: Player 1 launched 5 (left 0) ships from planet 1 to planet 8
- 145: Player 1 now owns planet 8
- 146: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 147: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 148: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 149: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 150: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 151: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 152: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 153: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 154: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 155: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 156: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 157: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 158: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 158: Player 1 defended planet 8
- 159: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 159: Player 2 launched 114 (left 39) ships from planet 11 to planet 21
- 160: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 161: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 162: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 163: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 164: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 165: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 166: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 167: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 168: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 169: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 170: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 171: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 171: Player 2 now owns planet 21
- 171: Player 1 now owns planet 9
- 172: Player 1 launched 5 (left 0) ships from planet 1 to planet 10
- 172: Player 2 launched 129 (left 43) ships from planet 13 to planet 9
- 173: Player 1 launched 5 (left 0) ships from planet 1 to planet 10
- 174: Player 1 launched 5 (left 0) ships from planet 1 to planet 10
- 175: Player 1 launched 5 (left 0) ships from planet 1 to planet 10
- 176: Player 1 launched 5 (left 0) ships from planet 1 to planet 10
- 177: Player 1 launched 5 (left 0) ships from planet 1 to planet 10
- 178: Player 1 launched 5 (left 0) ships from planet 1 to planet 10
- 179: Player 1 launched 5 (left 0) ships from planet 1 to planet 10
- 179: Player 2 defended planet 10
- 180: Player 1 launched 5 (left 0) ships from planet 1 to planet 10
- 180: Player 2 defended planet 10
- 181: Player 1 launched 5 (left 0) ships from planet 1 to planet 10
- 181: Player 2 defended planet 10
- 182: Player 1 launched 5 (left 0) ships from planet 1 to planet 10
- 182: Player 2 defended planet 10
- 183: Player 1 launched 5 (left 0) ships from planet 1 to planet 10
- 183: Player 2 defended planet 10
- 184: Player 1 launched 5 (left 0) ships from planet 1 to planet 10
- 184: Player 2 defended planet 10
- 185: Player 1 launched 5 (left 0) ships from planet 1 to planet 10
- 185: Player 2 defended planet 10
- 186: Player 1 launched 5 (left 0) ships from planet 1 to planet 10
- 186: Player 2 defended planet 10
- 187: Player 1 launched 5 (left 0) ships from planet 1 to planet 10
- 187: Player 2 defended planet 10
- 188: Player 1 launched 5 (left 0) ships from planet 1 to planet 10
- 188: Player 2 defended planet 10
- 189: Player 1 launched 5 (left 0) ships from planet 1 to planet 10
- 189: Player 2 defended planet 10
- 190: Player 1 launched 5 (left 0) ships from planet 1 to planet 10
- 190: Player 2 now owns planet 9
- 190: Player 2 defended planet 10
- 191: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 191: Player 2 launched 182 (left 61) ships from planet 20 to planet 14
- 191: Player 2 defended planet 10
- 192: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 192: Player 2 defended planet 10
- 193: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 193: Player 2 defended planet 10
- 194: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 194: Player 2 defended planet 10
- 195: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 195: Player 2 defended planet 10
- 196: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 196: Player 2 defended planet 10
- 197: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 197: Player 2 defended planet 10
- 198: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 199: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 200: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 201: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 202: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 202: Player 2 defended planet 9
- 203: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 203: Player 2 defended planet 9
- 204: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 204: Player 2 defended planet 9
- 205: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 205: Player 2 now owns planet 14
- 205: Player 2 defended planet 9
- 206: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 206: Player 2 launched 173 (left 58) ships from planet 23 to planet 15
- 206: Player 2 defended planet 9
- 207: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 207: Player 2 defended planet 9
- 207: Player 2 now owns planet 15
- 208: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 208: Player 2 launched 176 (left 59) ships from planet 11 to planet 18
- 208: Player 2 defended planet 9
- 209: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 209: Player 2 defended planet 9
- 209: Player 2 now owns planet 18
- 210: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 210: Player 2 launched 179 (left 60) ships from planet 21 to planet 19
- 210: Player 2 defended planet 9
- 211: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 211: Player 2 defended planet 9
- 212: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 212: Player 2 defended planet 9
- 213: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 213: Player 2 defended planet 9
- 214: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 214: Player 2 defended planet 9
- 215: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 215: Player 2 defended planet 9
- 216: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 216: Player 2 defended planet 9
- 217: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 217: Player 2 defended planet 9
- 218: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 218: Player 2 defended planet 9
- 219: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 219: Player 2 defended planet 9
- 220: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 220: Player 1 now owns planet 9
- 221: Player 1 launched 5 (left 0) ships from planet 1 to planet 10
- 222: Player 1 launched 5 (left 0) ships from planet 1 to planet 10
- 223: Player 1 launched 5 (left 0) ships from planet 1 to planet 10
- 223: Player 2 now owns planet 19
- 224: Player 1 launched 5 (left 0) ships from planet 1 to planet 10
- 224: Player 2 launched 196 (left 66) ships from planet 10 to planet 9
- 225: Player 1 launched 5 (left 0) ships from planet 1 to planet 10
- 226: Player 1 launched 5 (left 0) ships from planet 1 to planet 10
- 227: Player 1 launched 5 (left 0) ships from planet 1 to planet 10
- 228: Player 1 launched 5 (left 0) ships from planet 1 to planet 10
- 228: Player 2 defended planet 10
- 229: Player 1 launched 5 (left 0) ships from planet 1 to planet 10
- 229: Player 2 defended planet 10
- 230: Player 1 launched 5 (left 0) ships from planet 1 to planet 10
- 230: Player 2 defended planet 10
- 231: Player 1 launched 5 (left 0) ships from planet 1 to planet 10
- 231: Player 2 defended planet 10
- 232: Player 1 launched 5 (left 0) ships from planet 1 to planet 10
- 232: Player 2 defended planet 10
- 233: Player 1 launched 5 (left 0) ships from planet 1 to planet 10
- 233: Player 2 defended planet 10
- 234: Player 1 launched 5 (left 0) ships from planet 1 to planet 10
- 234: Player 2 defended planet 10
- 235: Player 1 launched 5 (left 0) ships from planet 1 to planet 10
- 235: Player 2 defended planet 10
- 236: Player 1 launched 5 (left 0) ships from planet 1 to planet 10
- 236: Player 2 now owns planet 9
- 236: Player 2 defended planet 10
- 237: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 237: Player 2 launched 200 (left 67) ships from planet 14 to planet 7
- 237: Player 2 defended planet 10
- 238: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 238: Player 2 defended planet 10
- 239: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 239: Player 2 defended planet 10
- 240: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 240: Player 2 defended planet 10
- 241: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 241: Player 2 defended planet 10
- 242: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 242: Player 2 defended planet 10
- 243: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 243: Player 2 defended planet 10
- 244: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 245: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 246: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 247: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 248: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 248: Player 2 defended planet 9
- 249: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 249: Player 2 defended planet 9
- 250: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 250: Player 2 defended planet 9
- 251: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 251: Player 2 defended planet 9
- 252: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 252: Player 2 defended planet 9
- 253: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 253: Player 1 defended planet 7
- 253: Player 2 defended planet 9
- 254: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 254: Player 2 launched 238 (left 80) ships from planet 15 to planet 7
- 254: Player 2 defended planet 9
- 255: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 255: Player 2 defended planet 9
- 256: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 256: Player 2 defended planet 9
- 257: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 257: Player 2 defended planet 9
- 258: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 258: Player 2 defended planet 9
- 259: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 259: Player 2 defended planet 9
- 260: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 260: Player 2 defended planet 9
- 261: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 261: Player 2 defended planet 9
- 261: Player 1 defended planet 7
- 262: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 262: Player 2 launched 258 (left 87) ships from planet 20 to planet 7
- 262: Player 2 defended planet 9
- 263: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 263: Player 2 defended planet 9
- 264: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 264: Player 2 defended planet 9
- 265: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 265: Player 2 defended planet 9
- 266: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 266: Player 2 defended planet 9
- 267: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 267: Player 2 defended planet 9
- 268: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 268: Player 2 defended planet 9
- 269: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 269: Player 2 defended planet 9
- 269: Player 2 now owns planet 7
- 270: Player 1 launched 5 (left 0) ships from planet 1 to planet 7
- 270: Player 2 launched 249 (left 84) ships from planet 22 to planet 6
- 270: Player 2 defended planet 9
- 271: Player 1 launched 5 (left 0) ships from planet 1 to planet 7
- 271: Player 2 defended planet 9
- 272: Player 1 launched 5 (left 0) ships from planet 1 to planet 7
- 272: Player 2 defended planet 9
- 273: Player 1 launched 5 (left 0) ships from planet 1 to planet 7
- 273: Player 2 defended planet 9
- 274: Player 1 launched 5 (left 0) ships from planet 1 to planet 7
- 274: Player 2 defended planet 9
- 275: Player 1 launched 5 (left 0) ships from planet 1 to planet 7
- 275: Player 2 defended planet 9
- 275: Player 1 defended planet 6
- 276: Player 1 launched 5 (left 0) ships from planet 1 to planet 7
- 276: Player 2 launched 248 (left 83) ships from planet 11 to planet 1
- 276: Player 2 defended planet 9
- 277: Player 1 launched 5 (left 0) ships from planet 1 to planet 7
- 277: Player 2 defended planet 9
- 277: Player 2 defended planet 7
- 278: Player 1 launched 5 (left 0) ships from planet 1 to planet 7
- 278: Player 2 defended planet 9
- 278: Player 2 defended planet 7
- 279: Player 1 launched 5 (left 0) ships from planet 1 to planet 7
- 279: Player 2 defended planet 9
- 279: Player 2 defended planet 7
- 280: Player 1 launched 5 (left 0) ships from planet 1 to planet 7
- 280: Player 2 defended planet 9
- 280: Player 2 defended planet 7
- 281: Player 1 launched 5 (left 0) ships from planet 1 to planet 7
- 281: Player 2 defended planet 7
- 282: Player 1 launched 5 (left 0) ships from planet 1 to planet 7
- 282: Player 2 defended planet 7
- 283: Player 1 launched 5 (left 0) ships from planet 1 to planet 7
- 283: Player 2 defended planet 7
- 283: Player 2 now owns planet 1
- 284: Player 1 launched 755 (left 0) ships from planet 2 to planet 1
- 284: Player 2 launched 267 (left 89) ships from planet 21 to planet 6
- 284: Player 2 defended planet 7
- 285: Player 1 launched 5 (left 0) ships from planet 2 to planet 1
- 285: Player 2 defended planet 7
- 286: Player 1 launched 5 (left 0) ships from planet 2 to planet 1
- 286: Player 2 defended planet 7
- 287: Player 1 launched 5 (left 0) ships from planet 2 to planet 1
- 287: Player 2 defended planet 7
- 288: Player 1 launched 5 (left 0) ships from planet 2 to planet 1
- 288: Player 2 defended planet 7
- 289: Player 1 launched 5 (left 0) ships from planet 2 to planet 1
- 289: Player 2 defended planet 7
- 290: Player 1 launched 5 (left 0) ships from planet 2 to planet 1
- 290: Player 2 defended planet 7
- 291: Player 1 launched 5 (left 0) ships from planet 2 to planet 1
- 291: Player 1 defended planet 6
- 292: Player 1 launched 5 (left 0) ships from planet 2 to planet 1
- 292: Player 2 launched 269 (left 90) ships from planet 12 to planet 2
- 292: Player 1 now owns planet 1
- 293: Player 1 launched 467 (left 0) ships from planet 1 to planet 7
- 294: Player 1 launched 10 (left 0) ships from planet 1 to planet 7
- 295: Player 1 launched 10 (left 0) ships from planet 1 to planet 7
- 296: Player 1 launched 10 (left 0) ships from planet 1 to planet 7
- 297: Player 1 launched 10 (left 0) ships from planet 1 to planet 7
- 298: Player 1 launched 10 (left 0) ships from planet 1 to planet 7
- 299: Player 1 launched 10 (left 0) ships from planet 1 to planet 7
- 300: Player 1 launched 10 (left 0) ships from planet 1 to planet 7
- 300: Player 1 now owns planet 7
- 301: Player 1 launched 10 (left 0) ships from planet 1 to planet 9
- 302: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 303: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 304: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 305: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 306: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 307: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 307: Player 2 now owns planet 2
- 308: Player 1 launched 5 (left 0) ships from planet 1 to planet 2
- 308: Player 2 launched 263 (left 88) ships from planet 14 to planet 1
- 309: Player 1 launched 5 (left 0) ships from planet 1 to planet 2
- 310: Player 1 launched 5 (left 0) ships from planet 1 to planet 2
- 311: Player 1 launched 5 (left 0) ships from planet 1 to planet 2
- 312: Player 1 launched 5 (left 0) ships from planet 1 to planet 2
- 312: Player 2 defended planet 9
- 313: Player 1 launched 5 (left 0) ships from planet 1 to planet 2
- 313: Player 2 defended planet 9
- 314: Player 1 launched 5 (left 0) ships from planet 1 to planet 2
- 314: Player 2 defended planet 9
- 315: Player 1 launched 5 (left 0) ships from planet 1 to planet 2
- 315: Player 2 defended planet 9
- 316: Player 1 launched 5 (left 0) ships from planet 1 to planet 2
- 316: Player 2 defended planet 9
- 316: Player 2 defended planet 2
- 317: Player 1 launched 5 (left 0) ships from planet 1 to planet 2
- 317: Player 2 defended planet 9
- 317: Player 2 defended planet 2
- 318: Player 1 launched 5 (left 0) ships from planet 1 to planet 2
- 318: Player 2 defended planet 9
- 318: Player 2 now owns planet 1
- 318: Player 2 defended planet 2
- 319: Player 1 launched 1457 (left 0) ships from planet 3 to planet 1
- 319: Player 2 launched 274 (left 92) ships from planet 10 to planet 7
- 319: Player 2 defended planet 2
- 320: Player 1 launched 5 (left 0) ships from planet 3 to planet 1
- 320: Player 2 defended planet 2
- 321: Player 1 launched 5 (left 0) ships from planet 3 to planet 1
- 321: Player 2 defended planet 2
- 322: Player 1 launched 5 (left 0) ships from planet 3 to planet 1
- 322: Player 2 defended planet 2
- 323: Player 1 launched 5 (left 0) ships from planet 3 to planet 1
- 323: Player 2 defended planet 2
- 324: Player 1 launched 5 (left 0) ships from planet 3 to planet 1
- 324: Player 2 defended planet 2
- 325: Player 1 launched 5 (left 0) ships from planet 3 to planet 1
- 325: Player 2 defended planet 2
- 326: Player 1 launched 5 (left 0) ships from planet 3 to planet 1
- 326: Player 2 defended planet 2
- 327: Player 1 launched 5 (left 0) ships from planet 3 to planet 1
- 327: Player 1 now owns planet 1
- 328: Player 1 launched 1154 (left 0) ships from planet 1 to planet 2
- 329: Player 1 launched 10 (left 0) ships from planet 1 to planet 2
- 330: Player 1 launched 10 (left 0) ships from planet 1 to planet 2
- 331: Player 1 launched 10 (left 0) ships from planet 1 to planet 2
- 332: Player 1 launched 10 (left 0) ships from planet 1 to planet 2
- 332: Player 1 defended planet 7
- 333: Player 1 launched 10 (left 0) ships from planet 1 to planet 2
- 333: Player 2 launched 297 (left 99) ships from planet 15 to planet 3
- 334: Player 1 launched 10 (left 0) ships from planet 1 to planet 2
- 335: Player 1 launched 10 (left 0) ships from planet 1 to planet 2
- 336: Player 1 launched 10 (left 0) ships from planet 1 to planet 2
- 336: Player 1 now owns planet 2
- 337: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 338: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 339: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 340: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 341: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 342: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 343: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 344: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 345: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 346: Player 1 launched 5 (left 0) ships from planet 1 to planet 9
- 346: Player 2 now owns planet 3
- 347: Player 1 launched 5 (left 0) ships from planet 1 to planet 3
- 347: Player 2 launched 320 (left 107) ships from planet 20 to planet 7
- 348: Player 1 launched 5 (left 0) ships from planet 1 to planet 3
- 348: Player 2 defended planet 9
- 349: Player 1 launched 5 (left 0) ships from planet 1 to planet 3
- 349: Player 2 defended planet 9
- 350: Player 1 launched 5 (left 0) ships from planet 1 to planet 3
- 350: Player 2 defended planet 9
- 351: Player 1 launched 5 (left 0) ships from planet 1 to planet 3
- 351: Player 2 defended planet 9
- 352: Player 1 launched 5 (left 0) ships from planet 1 to planet 3
- 352: Player 2 defended planet 9
- 353: Player 1 launched 5 (left 0) ships from planet 1 to planet 3
- 353: Player 2 defended planet 9
- 354: Player 1 launched 5 (left 0) ships from planet 1 to planet 3
- 354: Player 2 defended planet 9
- 354: Player 2 now owns planet 7
- 355: Player 1 launched 5 (left 0) ships from planet 1 to planet 3
- 355: Player 2 launched 307 (left 103) ships from planet 18 to planet 1
- 355: Player 2 defended planet 9
- 355: Player 2 defended planet 3
- 356: Player 1 launched 5 (left 0) ships from planet 1 to planet 3
- 356: Player 2 defended planet 9
- 356: Player 2 defended planet 3
- 357: Player 1 launched 5 (left 0) ships from planet 1 to planet 3
- 357: Player 2 defended planet 9
- 357: Player 2 defended planet 3
- 358: Player 1 launched 5 (left 0) ships from planet 1 to planet 3
- 358: Player 2 defended planet 3
- 359: Player 1 launched 5 (left 0) ships from planet 1 to planet 3
- 359: Player 2 defended planet 3
- 360: Player 1 launched 5 (left 0) ships from planet 1 to planet 3
- 360: Player 2 defended planet 3
- 361: Player 1 launched 5 (left 0) ships from planet 1 to planet 3
- 361: Player 2 defended planet 3
- 361: Player 2 now owns planet 1
- 362: Player 1 launched 1080 (left 0) ships from planet 2 to planet 1
- 362: Player 2 launched 320 (left 107) ships from planet 11 to planet 6
- 362: Player 2 defended planet 3
- 363: Player 1 launched 5 (left 0) ships from planet 2 to planet 1
- 363: Player 2 defended planet 3
- 364: Player 1 launched 5 (left 0) ships from planet 2 to planet 1
- 364: Player 2 defended planet 3
- 365: Player 1 launched 5 (left 0) ships from planet 2 to planet 1
- 365: Player 2 defended planet 3
+   1: Player 1 launched 105 (left 0) ships from planet 2 to planet 17
+   1: Player 2 launched 105 (left 0) ships from planet 3 to planet 16
+Invalid order modified - not enough ships. Max used.
+Invalid order ignored - no ships to launch.
+   3: Player 1 launched 10 (left 0) ships from planet 2 to planet 17
+   5: Player 1 launched 10 (left 0) ships from planet 2 to planet 17
+   5: Player 1 now owns planet 17
+   5: Player 2 now owns planet 16
+   6: Player 2 launched 18 (left 7) ships from planet 3 to planet 17
+  19: Player 1 launched 70 (left 0) ships from planet 2 to planet 18
+  24: Player 1 now owns planet 18
+  26: Player 1 defended planet 17
+  27: Player 1 launched 40 (left 0) ships from planet 2 to planet 23
+  27: Player 2 launched 112 (left 0) ships from planet 3 to planet 19
+Invalid order modified - not enough ships. Max used.
+Invalid order ignored - no ships to launch.
+  32: Player 2 now owns planet 19
+  33: Player 2 launched 22 (left 8) ships from planet 3 to planet 4
+  33: Player 1 now owns planet 23
+  45: Player 1 launched 90 (left 0) ships from planet 2 to planet 12
+  49: Player 2 now owns planet 4
+  50: Player 2 launched 93 (left 0) ships from planet 3 to planet 22
+Invalid order modified - not enough ships. Max used.
+Invalid order ignored - no ships to launch.
+  53: Player 1 now owns planet 12
+  54: Player 1 launched 45 (left 0) ships from planet 2 to planet 6
+  56: Player 2 now owns planet 22
+  57: Player 2 launched 26 (left 9) ships from planet 3 to planet 5
+  61: Player 1 launched 35 (left 0) ships from planet 2 to planet 6
+  62: Player 1 now owns planet 6
+  67: Player 2 now owns planet 5
+  68: Player 2 launched 48 (left 16) ships from planet 3 to planet 6
+  74: Player 1 launched 65 (left 0) ships from planet 2 to planet 9
+  84: Player 1 now owns planet 9
+  90: Player 1 defended planet 6
+  91: Player 2 launched 131 (left 0) ships from planet 3 to planet 13
+Invalid order modified - not enough ships. Max used.
+Invalid order ignored - no ships to launch.
+  99: Player 2 now owns planet 13
+ 100: Player 2 launched 45 (left 0) ships from planet 3 to planet 7
+Invalid order modified - not enough ships. Max used.
+Invalid order ignored - no ships to launch.
+ 108: Player 2 now owns planet 7
+ 109: Player 2 launched 33 (left 12) ships from planet 3 to planet 23
+ 125: Player 1 launched 255 (left 0) ships from planet 2 to planet 3
+ 130: Player 1 defended planet 23
+ 131: Player 2 launched 122 (left 0) ships from planet 3 to planet 8
+Invalid order modified - not enough ships. Max used.
+Invalid order ignored - no ships to launch.
+ 141: Player 2 now owns planet 8
+ 142: Player 2 launched 41 (left 14) ships from planet 3 to planet 20
+ 144: Player 1 launched 95 (left 0) ships from planet 2 to planet 3
+ 146: Player 1 now owns planet 3
+ 156: Player 2 now owns planet 20
+ 157: Player 2 launched 429 (left 0) ships from planet 4 to planet 15
+Invalid order modified - not enough ships. Max used.
+Invalid order ignored - no ships to launch.
+ 158: Player 1 launched 70 (left 0) ships from planet 2 to planet 4
+ 161: Player 2 now owns planet 15
+ 163: Player 1 launched 25 (left 0) ships from planet 2 to planet 4
+ 168: Player 2 launched 33 (left 11) ships from planet 4 to planet 21
+ 168: Player 1 now owns planet 4
+ 186: Player 2 launched 477 (left 0) ships from planet 5 to planet 21
+Invalid order modified - not enough ships. Max used.
+Invalid order ignored - no ships to launch.
+ 187: Player 1 launched 120 (left 0) ships from planet 2 to planet 1
+ 189: Player 2 now owns planet 21
+ 197: Player 1 now owns planet 1
+ 202: Player 2 launched 48 (left 16) ships from planet 5 to planet 9
+ 213: Player 1 defended planet 9
+ 217: Player 2 launched 76 (left 0) ships from planet 5 to planet 14
+Invalid order modified - not enough ships. Max used.
+Invalid order ignored - no ships to launch.
+ 221: Player 2 now owns planet 14
+ 236: Player 2 launched 76 (left 0) ships from planet 5 to planet 11
+Invalid order modified - not enough ships. Max used.
+Invalid order ignored - no ships to launch.
+ 244: Player 2 now owns planet 11
+ 255: Player 2 launched 57 (left 19) ships from planet 5 to planet 10
+ 275: Player 2 launched 74 (left 25) ships from planet 5 to planet 10
+ 294: Player 2 now owns planet 10
+ 295: Player 2 launched 78 (left 27) ships from planet 5 to planet 12
+ 306: Player 1 defended planet 12
+ 314: Player 2 launched 77 (left 26) ships from planet 5 to planet 2
+ 330: Player 1 defended planet 2
+ 334: Player 2 launched 79 (left 27) ships from planet 5 to planet 6
+ 355: Player 1 defended planet 6
+ 356: Player 2 launched 115 (left 0) ships from planet 5 to planet 1
+Invalid order modified - not enough ships. Max used.
+Invalid order ignored - no ships to launch.
+ 364: Player 2 now owns planet 1
+ 365: Player 1 launched 813 (left 0) ships from planet 2 to planet 1
  366: Player 1 launched 5 (left 0) ships from planet 2 to planet 1
- 366: Player 2 defended planet 3
  367: Player 1 launched 5 (left 0) ships from planet 2 to planet 1
- 367: Player 2 defended planet 3
  368: Player 1 launched 5 (left 0) ships from planet 2 to planet 1
- 368: Player 2 defended planet 3
  369: Player 1 launched 5 (left 0) ships from planet 2 to planet 1
- 369: Player 2 defended planet 3
  370: Player 1 launched 5 (left 0) ships from planet 2 to planet 1
- 370: Player 1 now owns planet 1
- 371: Player 1 launched 733 (left 0) ships from planet 1 to planet 3
- 372: Player 1 launched 10 (left 0) ships from planet 1 to planet 3
- 373: Player 1 launched 10 (left 0) ships from planet 1 to planet 3
- 374: Player 1 launched 10 (left 0) ships from planet 1 to planet 3
- 375: Player 1 launched 10 (left 0) ships from planet 1 to planet 3
- 375: Player 1 defended planet 6
- 376: Player 1 launched 10 (left 0) ships from planet 1 to planet 3
- 376: Player 2 launched 342 (left 115) ships from planet 21 to planet 2
- 377: Player 1 launched 10 (left 0) ships from planet 1 to planet 3
- 378: Player 1 launched 10 (left 0) ships from planet 1 to planet 3
- 379: Player 1 launched 10 (left 0) ships from planet 1 to planet 3
- 379: Player 1 now owns planet 3
- 380: Player 1 launched 5 (left 0) ships from planet 1 to planet 7
- 381: Player 1 launched 5 (left 0) ships from planet 1 to planet 7
- 382: Player 1 launched 5 (left 0) ships from planet 1 to planet 7
- 383: Player 1 launched 5 (left 0) ships from planet 1 to planet 7
- 384: Player 1 launched 5 (left 0) ships from planet 1 to planet 7
- 385: Player 1 launched 5 (left 0) ships from planet 1 to planet 7
- 386: Player 1 launched 5 (left 0) ships from planet 1 to planet 7
- 387: Player 1 launched 5 (left 0) ships from planet 1 to planet 7
- 387: Player 2 defended planet 7
- 388: Player 1 launched 5 (left 0) ships from planet 1 to planet 7
- 388: Player 2 defended planet 7
- 389: Player 1 launched 5 (left 0) ships from planet 1 to planet 7
- 389: Player 2 defended planet 7
- 390: Player 1 launched 5 (left 0) ships from planet 1 to planet 7
- 390: Player 2 defended planet 7
- 391: Player 1 launched 5 (left 0) ships from planet 1 to planet 7
- 391: Player 2 defended planet 7
- 392: Player 1 launched 5 (left 0) ships from planet 1 to planet 7
- 392: Player 2 defended planet 7
- 393: Player 1 launched 5 (left 0) ships from planet 1 to planet 7
- 393: Player 2 defended planet 7
- 394: Player 1 launched 5 (left 0) ships from planet 1 to planet 7
- 394: Player 2 now owns planet 2
- 394: Player 2 defended planet 7
- 395: Player 1 launched 5 (left 0) ships from planet 1 to planet 2
- 395: Player 2 launched 366 (left 123) ships from planet 13 to planet 1
- 395: Player 2 defended planet 7
- 396: Player 1 launched 5 (left 0) ships from planet 1 to planet 2
- 396: Player 2 defended planet 7
- 397: Player 1 launched 5 (left 0) ships from planet 1 to planet 2
- 397: Player 2 defended planet 7
- 398: Player 1 launched 5 (left 0) ships from planet 1 to planet 2
- 398: Player 2 defended planet 7
- 399: Player 1 launched 5 (left 0) ships from planet 1 to planet 2
- 399: Player 2 defended planet 7
- 400: Player 1 launched 5 (left 0) ships from planet 1 to planet 2
- 400: Player 2 defended planet 7
- 401: Player 1 launched 5 (left 0) ships from planet 1 to planet 2
- 401: Player 2 defended planet 7
- 402: Player 1 launched 5 (left 0) ships from planet 1 to planet 2
- 403: Player 1 launched 5 (left 0) ships from planet 1 to planet 2
- 403: Player 2 defended planet 2
- 404: Player 1 launched 5 (left 0) ships from planet 1 to planet 2
- 404: Player 2 now owns planet 1
- 404: Player 2 defended planet 2
- 405: Player 1 launched 651 (left 0) ships from planet 3 to planet 1
- 405: Player 2 launched 363 (left 122) ships from planet 19 to planet 6
- 405: Player 2 defended planet 2
- 406: Player 1 launched 5 (left 0) ships from planet 3 to planet 1
- 406: Player 2 defended planet 2
- 407: Player 1 launched 5 (left 0) ships from planet 3 to planet 1
- 407: Player 2 defended planet 2
- 408: Player 1 launched 5 (left 0) ships from planet 3 to planet 1
- 408: Player 2 defended planet 2
- 409: Player 1 launched 5 (left 0) ships from planet 3 to planet 1
- 409: Player 2 defended planet 2
- 410: Player 1 launched 5 (left 0) ships from planet 3 to planet 1
- 410: Player 2 defended planet 2
- 411: Player 1 launched 5 (left 0) ships from planet 3 to planet 1
- 411: Player 2 defended planet 2
- 411: Player 2 now owns planet 6
- 412: Player 1 launched 5 (left 0) ships from planet 3 to planet 1
- 412: Player 2 launched 378 (left 126) ships from planet 14 to planet 3
- 412: Player 2 defended planet 2
- 413: Player 1 launched 5 (left 0) ships from planet 3 to planet 1
- 413: Player 1 now owns planet 1
- 414: Player 1 launched 245 (left 0) ships from planet 1 to planet 2
- 415: Player 1 launched 10 (left 0) ships from planet 1 to planet 2
- 416: Player 1 launched 10 (left 0) ships from planet 1 to planet 2
- 417: Player 1 launched 10 (left 0) ships from planet 1 to planet 2
- 418: Player 1 launched 10 (left 0) ships from planet 1 to planet 2
- 419: Player 1 launched 10 (left 0) ships from planet 1 to planet 2
- 420: Player 1 launched 10 (left 0) ships from planet 1 to planet 2
- 421: Player 1 launched 10 (left 0) ships from planet 1 to planet 2
- 422: Player 1 launched 10 (left 0) ships from planet 1 to planet 2
- 422: Player 2 defended planet 2
- 423: Player 1 launched 5 (left 0) ships from planet 1 to planet 2
- 423: Player 2 defended planet 2
- 424: Player 1 launched 5 (left 0) ships from planet 1 to planet 2
- 424: Player 2 now owns planet 3
- 424: Player 2 defended planet 2
- 425: Player 1 launched 5 (left 0) ships from planet 1 to planet 2
- 425: Player 2 launched 387 (left 129) ships from planet 10 to planet 1
- 425: Player 2 defended planet 2
- 426: Player 1 launched 5 (left 0) ships from planet 1 to planet 2
- 426: Player 2 defended planet 2
- 427: Player 1 launched 5 (left 0) ships from planet 1 to planet 2
- 427: Player 2 defended planet 2
- 428: Player 1 launched 5 (left 0) ships from planet 1 to planet 2
- 428: Player 2 defended planet 2
- 429: Player 1 launched 5 (left 0) ships from planet 1 to planet 2
- 429: Player 2 defended planet 2
- 430: Player 1 launched 5 (left 0) ships from planet 1 to planet 2
- 430: Player 2 defended planet 2
- 431: Player 1 launched 5 (left 0) ships from planet 1 to planet 2
- 431: Player 2 defended planet 2
- 432: Player 1 launched 5 (left 0) ships from planet 1 to planet 2
- 432: Player 2 defended planet 2
- 432: Player 2 now owns planet 1
- 433: Player 1 launched 1206 (left 0) ships from planet 4 to planet 1
- 433: Player 2 launched 384 (left 128) ships from planet 23 to planet 8
- 433: Player 2 defended planet 2
- 434: Player 1 launched 3 (left 0) ships from planet 4 to planet 1
- 434: Player 2 defended planet 2
- 435: Player 1 launched 3 (left 0) ships from planet 4 to planet 1
- 435: Player 2 defended planet 2
- 436: Player 1 launched 3 (left 0) ships from planet 4 to planet 1
- 436: Player 2 defended planet 2
- 437: Player 1 launched 3 (left 0) ships from planet 4 to planet 1
- 437: Player 2 defended planet 2
- 438: Player 1 launched 3 (left 0) ships from planet 4 to planet 1
- 438: Player 2 defended planet 2
- 439: Player 1 launched 3 (left 0) ships from planet 4 to planet 1
- 439: Player 2 defended planet 2
- 440: Player 1 launched 3 (left 0) ships from planet 4 to planet 1
- 440: Player 2 defended planet 2
- 441: Player 1 launched 3 (left 0) ships from planet 4 to planet 1
- 442: Player 1 launched 3 (left 0) ships from planet 4 to planet 1
- 442: Player 1 now owns planet 1
- 443: Player 1 launched 774 (left 0) ships from planet 1 to planet 2
- 444: Player 1 launched 8 (left 0) ships from planet 1 to planet 2
- 444: Player 1 defended planet 8
- 445: Player 1 launched 8 (left 0) ships from planet 1 to planet 2
- 445: Player 2 launched 410 (left 137) ships from planet 15 to planet 4
- 446: Player 1 launched 8 (left 0) ships from planet 1 to planet 2
- 447: Player 1 launched 8 (left 0) ships from planet 1 to planet 2
- 448: Player 1 launched 8 (left 0) ships from planet 1 to planet 2
- 449: Player 1 launched 8 (left 0) ships from planet 1 to planet 2
- 450: Player 1 launched 8 (left 0) ships from planet 1 to planet 2
- 451: Player 1 launched 8 (left 0) ships from planet 1 to planet 2
- 451: Player 1 now owns planet 2
- 452: Player 1 launched 8 (left 0) ships from planet 1 to planet 3
- 453: Player 1 launched 5 (left 0) ships from planet 1 to planet 3
- 454: Player 1 launched 5 (left 0) ships from planet 1 to planet 3
- 455: Player 1 launched 5 (left 0) ships from planet 1 to planet 3
- 456: Player 1 launched 5 (left 0) ships from planet 1 to planet 3
- 457: Player 1 launched 5 (left 0) ships from planet 1 to planet 3
- 458: Player 1 launched 5 (left 0) ships from planet 1 to planet 3
- 459: Player 1 launched 5 (left 0) ships from planet 1 to planet 3
- 460: Player 1 launched 5 (left 0) ships from planet 1 to planet 3
- 460: Player 2 defended planet 3
- 461: Player 1 launched 5 (left 0) ships from planet 1 to planet 3
- 461: Player 2 now owns planet 4
- 461: Player 2 defended planet 3
- 462: Player 1 launched 5 (left 0) ships from planet 1 to planet 3
- 462: Player 2 launched 425 (left 142) ships from planet 20 to planet 1
- 462: Player 2 defended planet 3
- 463: Player 1 launched 5 (left 0) ships from planet 1 to planet 3
- 463: Player 2 defended planet 3
- 464: Player 1 launched 5 (left 0) ships from planet 1 to planet 3
- 464: Player 2 defended planet 3
- 465: Player 1 launched 5 (left 0) ships from planet 1 to planet 3
- 465: Player 2 defended planet 3
- 466: Player 1 launched 5 (left 0) ships from planet 1 to planet 3
- 466: Player 2 defended planet 3
- 467: Player 1 launched 5 (left 0) ships from planet 1 to planet 3
- 467: Player 2 defended planet 3
- 468: Player 1 launched 5 (left 0) ships from planet 1 to planet 3
- 468: Player 2 defended planet 3
- 469: Player 1 launched 5 (left 0) ships from planet 1 to planet 3
- 469: Player 2 defended planet 3
- 470: Player 1 launched 5 (left 0) ships from planet 1 to planet 3
- 470: Player 2 defended planet 3
- 471: Player 1 launched 5 (left 0) ships from planet 1 to planet 3
- 471: Player 2 defended planet 3
- 472: Player 1 launched 5 (left 0) ships from planet 1 to planet 3
- 472: Player 2 now owns planet 1
- 472: Player 2 defended planet 3
- 473: Player 1 launched 866 (left 0) ships from planet 2 to planet 1
- 473: Player 2 launched 413 (left 138) ships from planet 11 to planet 8
- 473: Player 2 defended planet 3
- 474: Player 1 launched 5 (left 0) ships from planet 2 to planet 1
- 474: Player 2 defended planet 3
- 475: Player 1 launched 5 (left 0) ships from planet 2 to planet 1
- 475: Player 2 defended planet 3
- 476: Player 1 launched 5 (left 0) ships from planet 2 to planet 1
- 476: Player 2 defended planet 3
- 477: Player 1 launched 5 (left 0) ships from planet 2 to planet 1
- 477: Player 2 defended planet 3
- 478: Player 1 launched 5 (left 0) ships from planet 2 to planet 1
- 478: Player 2 defended planet 3
- 479: Player 1 launched 5 (left 0) ships from planet 2 to planet 1
- 479: Player 2 defended planet 3
- 480: Player 1 launched 5 (left 0) ships from planet 2 to planet 1
- 480: Player 2 defended planet 3
- 481: Player 1 launched 5 (left 0) ships from planet 2 to planet 1
- 481: Player 1 now owns planet 1
- 482: Player 1 launched 401 (left 0) ships from planet 1 to planet 3
- 483: Player 1 launched 10 (left 0) ships from planet 1 to planet 3
- 484: Player 1 launched 10 (left 0) ships from planet 1 to planet 3
- 485: Player 1 launched 10 (left 0) ships from planet 1 to planet 3
- 485: Player 1 defended planet 8
- 486: Player 1 launched 10 (left 0) ships from planet 1 to planet 3
- 486: Player 2 launched 416 (left 139) ships from planet 21 to planet 2
- 487: Player 1 launched 10 (left 0) ships from planet 1 to planet 3
- 488: Player 1 launched 10 (left 0) ships from planet 1 to planet 3
- 489: Player 1 launched 10 (left 0) ships from planet 1 to planet 3
- 490: Player 1 launched 10 (left 0) ships from planet 1 to planet 3
- 490: Player 2 defended planet 3
- 491: Player 1 launched 5 (left 0) ships from planet 1 to planet 3
- 491: Player 2 defended planet 3
- 492: Player 1 launched 5 (left 0) ships from planet 1 to planet 3
- 492: Player 2 defended planet 3
- 493: Player 1 launched 5 (left 0) ships from planet 1 to planet 3
- 493: Player 2 defended planet 3
- 494: Player 1 launched 5 (left 0) ships from planet 1 to planet 3
- 494: Player 2 defended planet 3
- 495: Player 1 launched 5 (left 0) ships from planet 1 to planet 3
- 495: Player 2 defended planet 3
- 496: Player 1 launched 5 (left 0) ships from planet 1 to planet 3
- 496: Player 2 defended planet 3
- 497: Player 1 launched 5 (left 0) ships from planet 1 to planet 3
- 497: Player 2 defended planet 3
- 498: Player 1 launched 5 (left 0) ships from planet 1 to planet 3
- 498: Player 2 defended planet 3
- 499: Player 1 launched 5 (left 0) ships from planet 1 to planet 3
- 499: Player 2 defended planet 3
+ 371: Player 1 launched 5 (left 0) ships from planet 2 to planet 1
+ 372: Player 1 launched 5 (left 0) ships from planet 2 to planet 1
+ 373: Player 1 launched 5 (left 0) ships from planet 2 to planet 1

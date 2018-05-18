@@ -104,6 +104,8 @@ class Player(object):
         total = sum([p.num_ships for p in self.gameinfo.my_planets.values()])
         total += sum([f.num_ships for f in self.gameinfo.my_fleets.values()])
         self.num_ships = self.gameinfo.num_ships = total
+        if self.is_alive() == False:
+            print(self.name)
 
     def update(self):
         # Assumes gameinfo facade details are ready - let the bot issue orders!
