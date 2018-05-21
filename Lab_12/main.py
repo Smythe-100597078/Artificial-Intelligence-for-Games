@@ -146,8 +146,13 @@ class BoxWorldWindow(pyglet.window.Window):
 
             elif symbol == key.UP:
                 self.limit += 1
-                self.plan_path()
+                self.plan_path
                 self._update_label('status', 'limit=%d' % self.limit)
+
+            elif symbol == key.X:
+                self.world.updatePlayer()
+            
+         
             elif symbol == key.DOWN:
                 if self.limit-1 > 0:
                     self.limit -= 1
@@ -162,7 +167,7 @@ class BoxWorldWindow(pyglet.window.Window):
         self.world.plan_path(search_modes[self.search_mode], self.limit)
         self._update_label('status', 'path planned')
         print(self.world.path.report(verbose=3))
-
+      
     def on_draw(self):
         self.clear()
         self.world.draw()

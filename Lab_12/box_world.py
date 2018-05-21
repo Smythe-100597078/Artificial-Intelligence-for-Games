@@ -44,6 +44,8 @@ Example BoxWorld map file.
 '''
 
 from graphics import egi
+import random
+
 import pyglet
 from pyglet.gl import *
 from point2d import Point2D
@@ -213,6 +215,13 @@ class BoxWorld(object):
         self.reset_navgraph()
         self.start = None
         self.target = None
+        self.player_id = 0
+        self.player_path_index = 1
+        self.itemFinish = self.boxes[random.randrange(0,29)]
+        self.readyItemSearch = False
+        self.itemStart = None
+        
+        
 
     def get_box_by_index(self, ix, iy):
         idx = (self.nx * iy) + ix
@@ -225,10 +234,39 @@ class BoxWorld(object):
     def update(self, delta):
         pass
 
+    def updatePlayer(self):
+        if self.player_id < self.path.path[-1]:
+            print("First")
+            self.player_id = self.path.path[self.path.path.index(self.player_id) + 1]
+            if self.player_id == self.path.path[-1]:
+                self.player_id = self.itemStart.idx
+                self.plan_item_path("Dijkstra",100)
+                
+
+        if self.player_id > self.path.path[-1]:
+            print("Second")
+            self.player_id = self.path.path[self.path.path.index(self.player_id) + 1]
+        
+      
+              
+                
+            
+
+
     def draw(self):
         for box in self.boxes:
             box.draw()
+           
+            if self.player_id == box.idx:
+                egi.set_pen_color(name="BLUE")
+                egi.circle(self.boxes[self.player_id]._vc ,20)
 
+            if self.itemFinish.idx == box.idx:
+                egi.set_pen_color(name="PURPLE")
+                egi.circle(self.boxes[self.itemFinish.idx]._vc ,10)
+            
+           
+        
         if cfg['EDGES_ON']:
             egi.set_pen_color(name='LIGHT_BLUE')
             for node, edges in self.graph.edgelist.items():
@@ -242,7 +280,6 @@ class BoxWorld(object):
                 egi.set_pen_color(name="GREEN")
                 for i in self.path.closed:
                     egi.circle(self.boxes[i]._vc, 10)
-
             if cfg['TREE_ON']:
                 egi.set_stroke(3)
                 # Show open edges
@@ -264,6 +301,8 @@ class BoxWorld(object):
                 for i in range(1,len(path)):
                     egi.line_by_pos(self.boxes[path[i-1]]._vc, self.boxes[path[i]]._vc)
                 egi.set_stroke(1)
+            
+  
 
 
     def resize(self, cx, cy):
@@ -385,6 +424,17 @@ class BoxWorld(object):
             self.start.marker = None
         self.start = self.boxes[idx]
         self.start.marker = 'S'
+   
+    def set_item_start(self, idx):
+        '''Set the start box based on its index idx value. '''
+        # remove any existing start node, set new start node
+        if self.itemFinish == self.boxes[idx]:
+            print("Can't have the same start and end boxes!")
+            return
+        if self.itemStart:
+            self.itemStart.marker = None
+        self.itemStart = self.boxes[idx]
+        self.itemStart.marker = 'S'
 
     def set_target(self, idx):
         '''Set the target box based on its index idx value. '''
@@ -397,6 +447,17 @@ class BoxWorld(object):
         self.target = self.boxes[idx]
         self.target.marker = 'T'
 
+    def set_item_target(self, idx):
+        '''Set the target box based on its index idx value. '''
+        # remove any existing target node, set new target node
+        if self.itemStart == self.boxes[idx]:
+            print("Can't have the same start and end boxes!")
+            return
+        if self.itemFinish is not None:
+            self.itemFinish.marker = None
+        self.itemFinish = self.boxes[idx]
+        self.itemFinish.marker = 'I'
+
     def plan_path(self, search, limit):
         '''Conduct a nav-graph search from the current world start node to the
         current target node, using a search method that matches the string
@@ -404,6 +465,15 @@ class BoxWorld(object):
         '''
         cls = SEARCHES[search]
         self.path = cls(self.graph, self.start.idx, self.target.idx, limit)
+
+    def plan_item_path(self, search, limit):
+        '''Conduct a nav-graph search from the current world start node to the
+        current target node, using a search method that matches the string
+        specified in `search`.
+        '''
+        cls = SEARCHES[search]
+        self.path = cls(self.graph, self.itemStart.idx, self.itemFinish.idx, limit)
+        
 
     @classmethod
     def FromFile(cls, filename, pixels=(500,500) ):
@@ -426,7 +496,10 @@ class BoxWorld(object):
         # Get and set the Start and Target tiles
         s_idx, t_idx = [int(bit) for bit in lines.pop(0).split()]
         world.set_start(s_idx)
+        world.player_id = s_idx
         world.set_target(t_idx)
+        world.set_item_start(t_idx)
+     
         # Ready to process each line
         assert len(lines) == ny, "Number of rows doesn't match data."
         # read each line

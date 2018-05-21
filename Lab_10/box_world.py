@@ -404,6 +404,15 @@ class BoxWorld(object):
         '''
         cls = SEARCHES[search]
         self.path = cls(self.graph, self.start.idx, self.target.idx, limit)
+    
+    def plan_item_path(self, search, limit):
+        '''Conduct a nav-graph search from the current world start node to the
+        current target node, using a search method that matches the string
+        specified in `search`.
+        '''
+        cls = SEARCHES[search]
+        self.path = cls(self.graph, self.start.idx, self.target.idx, limit)
+
 
     @classmethod
     def FromFile(cls, filename, pixels=(500,500) ):
